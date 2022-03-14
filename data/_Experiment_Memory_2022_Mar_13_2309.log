@@ -1,0 +1,935 @@
+2.5726 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+7.2295 	WARNING 	User requested fullscreen with size [1536  864], but screen is actually [1920, 1080]. Using actual size
+9.9428 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+9.9436 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000014907D55C88>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000014907C81390>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+9.9444 	EXP 	window1: mouseVisible = True
+9.9445 	EXP 	window1: recordFrameIntervals = False
+10.1093 	EXP 	window1: recordFrameIntervals = True
+11.7760 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+12.6678 	EXP 	Created Instr1_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='Instr1_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.7001 	EXP 	Created Instr2_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Instr2_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.7389 	EXP 	Created ExQuestion = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='ExQuestion', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Что рифмуется со словом "молодец"?', units='height', win=Window(...), wrapWidth=1)
+12.7512 	EXP 	Created ExWordL = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='ExWordL', opacity=1, ori=0.0, pos=array([-0.4,  0. ]), rgb=UNKNOWN, text='конец', units='height', win=Window(...), wrapWidth=1)
+12.7609 	EXP 	Created ExWordR = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='ExWordR', opacity=1, ori=0.0, pos=array([0.4, 0. ]), rgb=UNKNOWN, text='голова', units='height', win=Window(...), wrapWidth=1)
+12.7838 	EXP 	Created ExHint = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='ExHint', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.8162 	EXP 	Created Instr3_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Instr3_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.8180 	EXP 	Created TestQuestion = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='TestQuestion', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+12.8196 	EXP 	Created TestWordL = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='TestWordL', opacity=1, ori=0.0, pos=array([-0.2,  0. ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+12.8212 	EXP 	Created TestWordR = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='TestWordR', opacity=1, ori=0.0, pos=array([0.2, 0. ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+12.8284 	EXP 	Created TestHint = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='TestHint', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.8598 	EXP 	Created Instr4_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Instr4_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.8613 	EXP 	Created Recogn_word = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='Recogn_word', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+12.8686 	EXP 	Created Recogn_hint = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Recogn_hint', opacity=1, ori=0.0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.8776 	EXP 	Created Goodbye_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Goodbye_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.9131 	WARNING 	t of last frame was 1137.49ms (=1/0)
+12.9131 	EXP 	Instr1_text: autoDraw = True
+13.3263 	WARNING 	t of last frame was 28.16ms (=1/35)
+16.2858 	DATA 	Keypress: space
+16.2929 	EXP 	Instr1_text: autoDraw = False
+16.2929 	EXP 	Instr2_text: autoDraw = True
+16.7306 	WARNING 	t of last frame was 20.39ms (=1/49)
+16.7595 	WARNING 	t of last frame was 28.83ms (=1/34)
+18.0518 	DATA 	Keypress: space
+18.0593 	EXP 	Instr2_text: autoDraw = False
+18.0593 	EXP 	ExQuestion: autoDraw = True
+21.0412 	EXP 	ExWordL: autoDraw = True
+21.0412 	EXP 	ExWordR: autoDraw = True
+21.0741 	EXP 	ExQuestion: autoDraw = False
+23.0403 	EXP 	ExWordL: autoDraw = False
+23.0403 	EXP 	ExWordR: autoDraw = False
+23.0403 	EXP 	ExHint: autoDraw = True
+23.6360 	DATA 	Keypress: f
+23.6422 	EXP 	ExQuestion: autoDraw = False
+23.6422 	EXP 	ExWordL: autoDraw = False
+23.6422 	EXP 	ExWordR: autoDraw = False
+23.6422 	EXP 	ExHint: autoDraw = False
+23.6422 	EXP 	Instr3_text: autoDraw = True
+23.6624 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+24.7046 	DATA 	Keypress: space
+24.7734 	EXP 	Imported conditions_memory_loop.xlsx as conditions, 19 conditions, 5 params
+24.7747 	EXP 	Created sequence: random, trialTypes=19, nReps=1, seed=None
+24.7754 	EXP 	New trial (rep=0, index=0): {'question': 'Какое слово относится к категории члены семьи?', 'wordL': 'звезда', 'wordR': 'сестра', 'wordcolorL': 'white', 'wordcolorR': 'white'}
+24.8402 	EXP 	Instr3_text: autoDraw = False
+24.8402 	EXP 	TestQuestion: text = 'Какое слово относится к категории члены семьи?'
+24.8402 	EXP 	TestWordL: text = 'звезда'
+24.8402 	EXP 	TestWordR: text = 'сестра'
+24.8402 	EXP 	TestQuestion: autoDraw = True
+27.8244 	EXP 	TestWordL: autoDraw = True
+27.8244 	EXP 	TestWordR: autoDraw = True
+27.8399 	EXP 	TestQuestion: autoDraw = False
+29.8242 	EXP 	TestHint: autoDraw = True
+29.8397 	EXP 	TestWordL: autoDraw = False
+29.8397 	EXP 	TestWordR: autoDraw = False
+30.2629 	EXP 	New trial (rep=0, index=1): {'question': 'В каком слове 3 буквы “О”?', 'wordL': 'молоко', 'wordR': 'металл', 'wordcolorL': 'white', 'wordcolorR': 'white'}
+30.3149 	DATA 	Keypress: j
+30.3241 	EXP 	TestQuestion: autoDraw = False
+30.3241 	EXP 	TestWordL: autoDraw = False
+30.3241 	EXP 	TestWordR: autoDraw = False
+30.3241 	EXP 	TestHint: autoDraw = False
+30.3241 	EXP 	TestQuestion: text = 'В каком слове 3 буквы “О”?'
+30.3241 	EXP 	TestWordL: text = 'молоко'
+30.3241 	EXP 	TestWordR: text = 'металл'
+30.3241 	EXP 	TestQuestion: autoDraw = True
+33.3058 	EXP 	TestWordL: autoDraw = True
+33.3058 	EXP 	TestWordR: autoDraw = True
+33.3391 	EXP 	TestQuestion: autoDraw = False
+35.3055 	EXP 	TestWordL: autoDraw = False
+35.3055 	EXP 	TestWordR: autoDraw = False
+35.3055 	EXP 	TestHint: autoDraw = True
+35.8284 	EXP 	New trial (rep=0, index=2): {'question': 'Какое слово написано с заглавной буквы?', 'wordL': 'Лошадь', 'wordR': 'рассказ', 'wordcolorL': 'white', 'wordcolorR': 'white'}
+35.8729 	DATA 	Keypress: f
+35.8902 	EXP 	TestQuestion: autoDraw = False
+35.8902 	EXP 	TestWordL: autoDraw = False
+35.8902 	EXP 	TestWordR: autoDraw = False
+35.8902 	EXP 	TestHint: autoDraw = False
+35.8902 	EXP 	TestQuestion: text = 'Какое слово написано с заглавной буквы?'
+35.8902 	EXP 	TestWordL: text = 'Лошадь'
+35.8902 	EXP 	TestWordR: text = 'рассказ'
+35.8902 	EXP 	TestQuestion: autoDraw = True
+38.8719 	EXP 	TestWordL: autoDraw = True
+38.8719 	EXP 	TestWordR: autoDraw = True
+38.9051 	EXP 	TestQuestion: autoDraw = False
+40.2449 	DATA 	Keypress: f
+40.8716 	EXP 	TestWordL: autoDraw = False
+40.8716 	EXP 	TestWordR: autoDraw = False
+40.8716 	EXP 	TestHint: autoDraw = True
+41.2435 	EXP 	New trial (rep=0, index=3): {'question': 'Какое слово относится к временам года?', 'wordL': 'зима', 'wordR': 'режим', 'wordcolorL': 'white', 'wordcolorR': 'white'}
+41.2806 	DATA 	Keypress: f
+41.2890 	EXP 	TestQuestion: autoDraw = False
+41.2890 	EXP 	TestWordL: autoDraw = False
+41.2890 	EXP 	TestWordR: autoDraw = False
+41.2890 	EXP 	TestHint: autoDraw = False
+41.2890 	EXP 	TestQuestion: text = 'Какое слово относится к временам года?'
+41.2890 	EXP 	TestWordL: text = 'зима'
+41.2890 	EXP 	TestWordR: text = 'режим'
+41.2890 	EXP 	TestQuestion: autoDraw = True
+44.2720 	EXP 	TestWordL: autoDraw = True
+44.2720 	EXP 	TestWordR: autoDraw = True
+44.2888 	EXP 	TestQuestion: autoDraw = False
+46.2706 	EXP 	TestWordL: autoDraw = False
+46.2706 	EXP 	TestWordR: autoDraw = False
+46.2706 	EXP 	TestHint: autoDraw = True
+46.6269 	EXP 	New trial (rep=0, index=4): {'question': 'Какое слово желтого цвета?', 'wordL': 'масштаб', 'wordR': 'версия', 'wordcolorL': 'white', 'wordcolorR': 'yellow'}
+46.6539 	DATA 	Keypress: f
+46.6706 	EXP 	TestQuestion: autoDraw = False
+46.6706 	EXP 	TestWordL: autoDraw = False
+46.6706 	EXP 	TestWordR: autoDraw = False
+46.6706 	EXP 	TestHint: autoDraw = False
+46.6706 	EXP 	TestQuestion: text = 'Какое слово желтого цвета?'
+46.6706 	EXP 	TestWordL: text = 'масштаб'
+46.6706 	EXP 	TestWordR: text = 'версия'
+46.6706 	EXP 	TestQuestion: autoDraw = True
+49.6556 	EXP 	TestWordL: autoDraw = True
+49.6556 	EXP 	TestWordR: autoDraw = True
+49.6703 	EXP 	TestQuestion: autoDraw = False
+51.6546 	EXP 	TestHint: autoDraw = True
+51.6698 	EXP 	TestWordL: autoDraw = False
+51.6698 	EXP 	TestWordR: autoDraw = False
+52.4264 	EXP 	New trial (rep=0, index=5): {'question': 'Какое слово написано мелким шрифтом?', 'wordL': 'месяц', 'wordR': 'ЯЗЫК', 'wordcolorL': 'white', 'wordcolorR': 'white'}
+52.4646 	DATA 	Keypress: j
+52.4705 	EXP 	TestQuestion: autoDraw = False
+52.4705 	EXP 	TestWordL: autoDraw = False
+52.4705 	EXP 	TestWordR: autoDraw = False
+52.4705 	EXP 	TestHint: autoDraw = False
+52.4705 	EXP 	TestQuestion: text = 'Какое слово написано мелким шрифтом?'
+52.4705 	EXP 	TestWordL: text = 'месяц'
+52.4705 	EXP 	TestWordR: text = 'ЯЗЫК'
+52.4705 	EXP 	TestQuestion: autoDraw = True
+55.4542 	EXP 	TestWordL: autoDraw = True
+55.4542 	EXP 	TestWordR: autoDraw = True
+55.4696 	EXP 	TestQuestion: autoDraw = False
+57.4539 	EXP 	TestHint: autoDraw = True
+57.4695 	EXP 	TestWordL: autoDraw = False
+57.4695 	EXP 	TestWordR: autoDraw = False
+58.6609 	DATA 	Keypress: f
+58.6747 	EXP 	New trial (rep=0, index=6): {'question': 'Какое слово написано с заглавной буквы?', 'wordL': 'Студент', 'wordR': 'дядя', 'wordcolorL': 'white', 'wordcolorR': 'white'}
+58.7199 	EXP 	TestQuestion: autoDraw = False
+58.7199 	EXP 	TestWordL: autoDraw = False
+58.7199 	EXP 	TestWordR: autoDraw = False
+58.7199 	EXP 	TestHint: autoDraw = False
+58.7199 	EXP 	TestQuestion: text = 'Какое слово написано с заглавной буквы?'
+58.7199 	EXP 	TestWordL: text = 'Студент'
+58.7199 	EXP 	TestWordR: text = 'дядя'
+58.7199 	EXP 	TestQuestion: autoDraw = True
+61.7040 	EXP 	TestWordL: autoDraw = True
+61.7040 	EXP 	TestWordR: autoDraw = True
+61.7234 	EXP 	TestQuestion: autoDraw = False
+63.5129 	DATA 	Keypress: f
+63.7057 	EXP 	TestWordL: autoDraw = False
+63.7057 	EXP 	TestWordR: autoDraw = False
+63.7057 	EXP 	TestHint: autoDraw = True
+64.2105 	EXP 	New trial (rep=0, index=7): {'question': 'Какое слово относится к категории фрукты?', 'wordL': 'яблоко ', 'wordR': 'лестница', 'wordcolorL': 'white', 'wordcolorR': 'white'}
+64.2473 	DATA 	Keypress: f
+64.2545 	EXP 	TestQuestion: autoDraw = False
+64.2545 	EXP 	TestWordL: autoDraw = False
+64.2545 	EXP 	TestWordR: autoDraw = False
+64.2545 	EXP 	TestHint: autoDraw = False
+64.2545 	EXP 	TestQuestion: text = 'Какое слово относится к категории фрукты?'
+64.2545 	EXP 	TestWordL: text = 'яблоко '
+64.2545 	EXP 	TestWordR: text = 'лестница'
+64.2545 	EXP 	TestQuestion: autoDraw = True
+67.2523 	EXP 	TestWordL: autoDraw = True
+67.2523 	EXP 	TestWordR: autoDraw = True
+67.2678 	EXP 	TestQuestion: autoDraw = False
+68.7249 	DATA 	Keypress: f
+69.2340 	EXP 	TestHint: autoDraw = True
+69.2715 	EXP 	TestWordL: autoDraw = False
+69.2715 	EXP 	TestWordR: autoDraw = False
+69.6765 	EXP 	New trial (rep=0, index=8): {'question': 'Какое слово относится к категории учебные предметы в школе?', 'wordL': 'право', 'wordR': 'образ', 'wordcolorL': 'white', 'wordcolorR': 'white'}
+69.7113 	DATA 	Keypress: f
+69.7185 	EXP 	TestQuestion: autoDraw = False
+69.7185 	EXP 	TestWordL: autoDraw = False
+69.7185 	EXP 	TestWordR: autoDraw = False
+69.7185 	EXP 	TestHint: autoDraw = False
+69.7185 	EXP 	TestQuestion: text = 'Какое слово относится к категории учебные предметы в школе?'
+69.7185 	EXP 	TestWordL: text = 'право'
+69.7185 	EXP 	TestWordR: text = 'образ'
+69.7185 	EXP 	TestQuestion: autoDraw = True
+72.7196 	EXP 	TestWordL: autoDraw = True
+72.7196 	EXP 	TestWordR: autoDraw = True
+72.7377 	EXP 	TestQuestion: autoDraw = False
+74.7182 	EXP 	TestHint: autoDraw = True
+74.7336 	EXP 	TestWordL: autoDraw = False
+74.7336 	EXP 	TestWordR: autoDraw = False
+75.3902 	EXP 	New trial (rep=0, index=9): {'question': 'Чем рисуют картины?', 'wordL': 'транспорт', 'wordR': 'краска', 'wordcolorL': 'white', 'wordcolorR': 'white'}
+75.4256 	DATA 	Keypress: f
+75.4333 	EXP 	TestQuestion: autoDraw = False
+75.4333 	EXP 	TestWordL: autoDraw = False
+75.4333 	EXP 	TestWordR: autoDraw = False
+75.4333 	EXP 	TestHint: autoDraw = False
+75.4333 	EXP 	TestQuestion: text = 'Чем рисуют картины?'
+75.4333 	EXP 	TestWordL: text = 'транспорт'
+75.4333 	EXP 	TestWordR: text = 'краска'
+75.4333 	EXP 	TestQuestion: autoDraw = True
+78.4182 	EXP 	TestWordL: autoDraw = True
+78.4182 	EXP 	TestWordR: autoDraw = True
+78.4331 	EXP 	TestQuestion: autoDraw = False
+80.4168 	EXP 	TestHint: autoDraw = True
+80.4322 	EXP 	TestWordL: autoDraw = False
+80.4322 	EXP 	TestWordR: autoDraw = False
+80.7371 	EXP 	New trial (rep=0, index=10): {'question': 'Какое из слов написано большими буквами?', 'wordL': 'ВОДА', 'wordR': 'отец', 'wordcolorL': 'white', 'wordcolorR': 'white'}
+80.7670 	DATA 	Keypress: j
+80.7833 	EXP 	TestQuestion: autoDraw = False
+80.7833 	EXP 	TestWordL: autoDraw = False
+80.7833 	EXP 	TestWordR: autoDraw = False
+80.7833 	EXP 	TestHint: autoDraw = False
+80.7833 	EXP 	TestQuestion: text = 'Какое из слов написано большими буквами?'
+80.7833 	EXP 	TestWordL: text = 'ВОДА'
+80.7833 	EXP 	TestWordR: text = 'отец'
+80.7833 	EXP 	TestQuestion: autoDraw = True
+83.7653 	EXP 	TestWordL: autoDraw = True
+83.7653 	EXP 	TestWordR: autoDraw = True
+83.7989 	EXP 	TestQuestion: autoDraw = False
+85.7653 	EXP 	TestWordL: autoDraw = False
+85.7653 	EXP 	TestWordR: autoDraw = False
+85.7653 	EXP 	TestHint: autoDraw = True
+86.3370 	EXP 	New trial (rep=0, index=11): {'question': 'Какое слово относится к категории музыка?', 'wordL': 'море', 'wordR': 'песня', 'wordcolorL': 'white', 'wordcolorR': 'white'}
+86.3631 	DATA 	Keypress: f
+86.3828 	EXP 	TestQuestion: autoDraw = False
+86.3828 	EXP 	TestWordL: autoDraw = False
+86.3828 	EXP 	TestWordR: autoDraw = False
+86.3828 	EXP 	TestHint: autoDraw = False
+86.3828 	EXP 	TestQuestion: text = 'Какое слово относится к категории музыка?'
+86.3828 	EXP 	TestWordL: text = 'море'
+86.3828 	EXP 	TestWordR: text = 'песня'
+86.3828 	EXP 	TestQuestion: autoDraw = True
+89.3654 	EXP 	TestWordL: autoDraw = True
+89.3654 	EXP 	TestWordR: autoDraw = True
+89.3824 	EXP 	TestQuestion: autoDraw = False
+90.7219 	DATA 	Keypress: j
+91.3648 	EXP 	TestWordL: autoDraw = False
+91.3648 	EXP 	TestWordR: autoDraw = False
+91.3648 	EXP 	TestHint: autoDraw = True
+91.7362 	EXP 	New trial (rep=0, index=12): {'question': 'Какое слово начинается с буквы "И"?', 'wordL': 'тысяча', 'wordR': 'имя', 'wordcolorL': 'white', 'wordcolorR': 'white'}
+91.7728 	DATA 	Keypress: j
+91.7821 	EXP 	TestQuestion: autoDraw = False
+91.7821 	EXP 	TestWordL: autoDraw = False
+91.7821 	EXP 	TestWordR: autoDraw = False
+91.7821 	EXP 	TestHint: autoDraw = False
+91.7821 	EXP 	TestQuestion: text = 'Какое слово начинается с буквы "И"?'
+91.7821 	EXP 	TestWordL: text = 'тысяча'
+91.7821 	EXP 	TestWordR: text = 'имя'
+91.7821 	EXP 	TestQuestion: autoDraw = True
+94.7644 	EXP 	TestWordL: autoDraw = True
+94.7644 	EXP 	TestWordR: autoDraw = True
+94.7822 	EXP 	TestQuestion: autoDraw = False
+96.7636 	EXP 	TestWordL: autoDraw = False
+96.7636 	EXP 	TestWordR: autoDraw = False
+96.7636 	EXP 	TestHint: autoDraw = True
+97.0887 	DATA 	Keypress: j
+97.1026 	EXP 	New trial (rep=0, index=13): {'question': 'Какое слово относится к категории предметы мебели?', 'wordL': 'диван', 'wordR': 'печать', 'wordcolorL': 'white', 'wordcolorR': 'white'}
+97.1481 	EXP 	TestQuestion: autoDraw = False
+97.1481 	EXP 	TestWordL: autoDraw = False
+97.1481 	EXP 	TestWordR: autoDraw = False
+97.1481 	EXP 	TestHint: autoDraw = False
+97.1481 	EXP 	TestQuestion: text = 'Какое слово относится к категории предметы мебели?'
+97.1481 	EXP 	TestWordL: text = 'диван'
+97.1481 	EXP 	TestWordR: text = 'печать'
+97.1481 	EXP 	TestQuestion: autoDraw = True
+100.1308 	EXP 	TestWordL: autoDraw = True
+100.1308 	EXP 	TestWordR: autoDraw = True
+100.1478 	EXP 	TestQuestion: autoDraw = False
+102.1298 	EXP 	TestWordL: autoDraw = False
+102.1298 	EXP 	TestWordR: autoDraw = False
+102.1298 	EXP 	TestHint: autoDraw = True
+102.3865 	EXP 	New trial (rep=0, index=14): {'question': 'Какое из слов относится к географии?', 'wordL': 'страна', 'wordR': 'случай', 'wordcolorL': 'white', 'wordcolorR': 'white'}
+102.4168 	DATA 	Keypress: f
+102.4298 	EXP 	TestQuestion: autoDraw = False
+102.4298 	EXP 	TestWordL: autoDraw = False
+102.4298 	EXP 	TestWordR: autoDraw = False
+102.4298 	EXP 	TestHint: autoDraw = False
+102.4298 	EXP 	TestQuestion: text = 'Какое из слов относится к географии?'
+102.4298 	EXP 	TestWordL: text = 'страна'
+102.4298 	EXP 	TestWordR: text = 'случай'
+102.4298 	EXP 	TestQuestion: autoDraw = True
+105.4146 	EXP 	TestWordL: autoDraw = True
+105.4146 	EXP 	TestWordR: autoDraw = True
+105.4293 	EXP 	TestQuestion: autoDraw = False
+107.4131 	EXP 	TestHint: autoDraw = True
+107.4289 	EXP 	TestWordL: autoDraw = False
+107.4289 	EXP 	TestWordR: autoDraw = False
+107.7185 	EXP 	New trial (rep=0, index=15): {'question': 'Что относится ко времени?', 'wordL': 'уровень', 'wordR': 'минута', 'wordcolorL': 'white', 'wordcolorR': 'white'}
+107.7438 	DATA 	Keypress: f
+107.7622 	EXP 	TestQuestion: autoDraw = False
+107.7622 	EXP 	TestWordL: autoDraw = False
+107.7622 	EXP 	TestWordR: autoDraw = False
+107.7622 	EXP 	TestHint: autoDraw = False
+107.7622 	EXP 	TestQuestion: text = 'Что относится ко времени?'
+107.7622 	EXP 	TestWordL: text = 'уровень'
+107.7622 	EXP 	TestWordR: text = 'минута'
+107.7622 	EXP 	TestQuestion: autoDraw = True
+110.7294 	EXP 	TestWordL: autoDraw = True
+110.7294 	EXP 	TestWordR: autoDraw = True
+110.7616 	EXP 	TestQuestion: autoDraw = False
+112.7282 	EXP 	TestWordL: autoDraw = False
+112.7282 	EXP 	TestWordR: autoDraw = False
+112.7282 	EXP 	TestHint: autoDraw = True
+113.0188 	EXP 	New trial (rep=0, index=16): {'question': 'Какое слово синего цвета?', 'wordL': 'порядок', 'wordR': 'момент', 'wordcolorL': 'white', 'wordcolorR': 'blue'}
+113.0484 	DATA 	Keypress: j
+113.0616 	EXP 	TestQuestion: autoDraw = False
+113.0616 	EXP 	TestWordL: autoDraw = False
+113.0616 	EXP 	TestWordR: autoDraw = False
+113.0616 	EXP 	TestHint: autoDraw = False
+113.0616 	EXP 	TestQuestion: text = 'Какое слово синего цвета?'
+113.0616 	EXP 	TestWordL: text = 'порядок'
+113.0616 	EXP 	TestWordR: text = 'момент'
+113.0616 	EXP 	TestQuestion: autoDraw = True
+116.0464 	EXP 	TestWordL: autoDraw = True
+116.0464 	EXP 	TestWordR: autoDraw = True
+116.0609 	EXP 	TestQuestion: autoDraw = False
+118.0452 	EXP 	TestHint: autoDraw = True
+118.0608 	EXP 	TestWordL: autoDraw = False
+118.0608 	EXP 	TestWordR: autoDraw = False
+118.6836 	EXP 	New trial (rep=0, index=17): {'question': 'Какое слово зеленого цвета?', 'wordL': 'вечер', 'wordR': 'качество', 'wordcolorL': 'white', 'wordcolorR': 'green'}
+118.7164 	DATA 	Keypress: j
+118.7273 	EXP 	TestQuestion: autoDraw = False
+118.7273 	EXP 	TestWordL: autoDraw = False
+118.7273 	EXP 	TestWordR: autoDraw = False
+118.7273 	EXP 	TestHint: autoDraw = False
+118.7273 	EXP 	TestQuestion: text = 'Какое слово зеленого цвета?'
+118.7273 	EXP 	TestWordL: text = 'вечер'
+118.7273 	EXP 	TestWordR: text = 'качество'
+118.7273 	EXP 	TestQuestion: autoDraw = True
+121.7118 	EXP 	TestWordL: autoDraw = True
+121.7118 	EXP 	TestWordR: autoDraw = True
+121.7269 	EXP 	TestQuestion: autoDraw = False
+123.7111 	EXP 	TestHint: autoDraw = True
+123.7266 	EXP 	TestWordL: autoDraw = False
+123.7266 	EXP 	TestWordR: autoDraw = False
+124.0648 	EXP 	New trial (rep=0, index=18): {'question': 'Какое слово написано красным цветом?', 'wordL': 'статья', 'wordR': 'область', 'wordcolorL': 'white', 'wordcolorR': 'red'}
+124.0939 	DATA 	Keypress: j
+124.1109 	EXP 	TestQuestion: autoDraw = False
+124.1109 	EXP 	TestWordL: autoDraw = False
+124.1109 	EXP 	TestWordR: autoDraw = False
+124.1109 	EXP 	TestHint: autoDraw = False
+124.1109 	EXP 	TestQuestion: text = 'Какое слово написано красным цветом?'
+124.1109 	EXP 	TestWordL: text = 'статья'
+124.1109 	EXP 	TestWordR: text = 'область'
+124.1109 	EXP 	TestQuestion: autoDraw = True
+127.0951 	EXP 	TestWordL: autoDraw = True
+127.0951 	EXP 	TestWordR: autoDraw = True
+127.1146 	EXP 	TestQuestion: autoDraw = False
+129.0964 	EXP 	TestWordL: autoDraw = False
+129.0964 	EXP 	TestWordR: autoDraw = False
+129.0964 	EXP 	TestHint: autoDraw = True
+130.0255 	DATA 	Keypress: j
+130.0438 	EXP 	TestQuestion: autoDraw = False
+130.0438 	EXP 	TestWordL: autoDraw = False
+130.0438 	EXP 	TestWordR: autoDraw = False
+130.0438 	EXP 	TestHint: autoDraw = False
+130.0438 	EXP 	Instr4_text: autoDraw = True
+138.8656 	DATA 	Keypress: space
+138.9292 	EXP 	Imported conditions_memory_recogn.xlsx as conditions, 80 conditions, 3 params
+138.9308 	EXP 	Created sequence: random, trialTypes=80, nReps=1, seed=None
+138.9316 	EXP 	New trial (rep=0, index=0): {'stimuluswords': 'лестница', 'lvl': 'semant', 'corrAns': 'j'}
+138.9582 	EXP 	Instr4_text: autoDraw = False
+138.9582 	EXP 	Recogn_word: text = 'лестница'
+138.9582 	EXP 	Recogn_word: autoDraw = True
+138.9582 	EXP 	Recogn_hint: autoDraw = True
+140.3842 	DATA 	Keypress: f
+140.3966 	EXP 	New trial (rep=0, index=1): {'stimuluswords': 'земля', 'lvl': 'filler', 'corrAns': 'f'}
+140.4245 	EXP 	Recogn_word: autoDraw = False
+140.4245 	EXP 	Recogn_hint: autoDraw = False
+140.4245 	EXP 	Recogn_word: text = 'земля'
+140.4245 	EXP 	Recogn_word: autoDraw = True
+140.4245 	EXP 	Recogn_hint: autoDraw = True
+143.0500 	DATA 	Keypress: j
+143.0621 	EXP 	New trial (rep=0, index=2): {'stimuluswords': 'карман', 'lvl': 'filler', 'corrAns': 'f'}
+143.0906 	EXP 	Recogn_word: autoDraw = False
+143.0906 	EXP 	Recogn_hint: autoDraw = False
+143.0906 	EXP 	Recogn_word: text = 'карман'
+143.0906 	EXP 	Recogn_word: autoDraw = True
+143.0906 	EXP 	Recogn_hint: autoDraw = True
+143.9140 	EXP 	New trial (rep=0, index=3): {'stimuluswords': 'школа', 'lvl': 'filler', 'corrAns': 'f'}
+143.9305 	DATA 	Keypress: f
+143.9415 	EXP 	Recogn_word: autoDraw = False
+143.9415 	EXP 	Recogn_hint: autoDraw = False
+143.9415 	EXP 	Recogn_word: text = 'школа'
+143.9415 	EXP 	Recogn_word: autoDraw = True
+143.9415 	EXP 	Recogn_hint: autoDraw = True
+144.9625 	EXP 	New trial (rep=0, index=4): {'stimuluswords': 'город', 'lvl': 'filler', 'corrAns': 'f'}
+144.9786 	DATA 	Keypress: f
+144.9904 	EXP 	Recogn_word: autoDraw = False
+144.9904 	EXP 	Recogn_hint: autoDraw = False
+144.9904 	EXP 	Recogn_word: text = 'город'
+144.9904 	EXP 	Recogn_word: autoDraw = True
+144.9904 	EXP 	Recogn_hint: autoDraw = True
+145.9790 	EXP 	New trial (rep=0, index=5): {'stimuluswords': 'рассказ', 'lvl': 'sens', 'corrAns': 'j'}
+145.9902 	DATA 	Keypress: f
+146.0079 	EXP 	Recogn_word: autoDraw = False
+146.0079 	EXP 	Recogn_hint: autoDraw = False
+146.0079 	EXP 	Recogn_word: text = 'рассказ'
+146.0079 	EXP 	Recogn_word: autoDraw = True
+146.0079 	EXP 	Recogn_hint: autoDraw = True
+147.5994 	DATA 	Keypress: f
+147.6123 	EXP 	New trial (rep=0, index=6): {'stimuluswords': 'женщина', 'lvl': 'filler', 'corrAns': 'f'}
+147.6409 	EXP 	Recogn_word: autoDraw = False
+147.6409 	EXP 	Recogn_hint: autoDraw = False
+147.6409 	EXP 	Recogn_word: text = 'женщина'
+147.6409 	EXP 	Recogn_word: autoDraw = True
+147.6409 	EXP 	Recogn_hint: autoDraw = True
+148.9617 	EXP 	New trial (rep=0, index=7): {'stimuluswords': 'звезда', 'lvl': 'semant', 'corrAns': 'j'}
+148.9755 	DATA 	Keypress: f
+148.9899 	EXP 	Recogn_word: autoDraw = False
+148.9899 	EXP 	Recogn_hint: autoDraw = False
+148.9899 	EXP 	Recogn_word: text = 'звезда'
+148.9899 	EXP 	Recogn_word: autoDraw = True
+148.9899 	EXP 	Recogn_hint: autoDraw = True
+149.5976 	DATA 	Keypress: j
+149.6130 	EXP 	New trial (rep=0, index=8): {'stimuluswords': 'деньги', 'lvl': 'semant', 'corrAns': 'j'}
+149.6408 	EXP 	Recogn_word: autoDraw = False
+149.6408 	EXP 	Recogn_hint: autoDraw = False
+149.6408 	EXP 	Recogn_word: text = 'деньги'
+149.6408 	EXP 	Recogn_word: autoDraw = True
+149.6408 	EXP 	Recogn_hint: autoDraw = True
+151.3978 	DATA 	Keypress: j
+151.4121 	EXP 	New trial (rep=0, index=9): {'stimuluswords': 'яблоко', 'lvl': 'semant', 'corrAns': 'j'}
+151.4404 	EXP 	Recogn_word: autoDraw = False
+151.4404 	EXP 	Recogn_hint: autoDraw = False
+151.4404 	EXP 	Recogn_word: text = 'яблоко'
+151.4404 	EXP 	Recogn_word: autoDraw = True
+151.4404 	EXP 	Recogn_hint: autoDraw = True
+152.0471 	EXP 	New trial (rep=0, index=10): {'stimuluswords': 'стихи', 'lvl': 'filler', 'corrAns': 'f'}
+152.0580 	DATA 	Keypress: j
+152.0744 	EXP 	Recogn_word: autoDraw = False
+152.0744 	EXP 	Recogn_hint: autoDraw = False
+152.0744 	EXP 	Recogn_word: text = 'стихи'
+152.0744 	EXP 	Recogn_word: autoDraw = True
+152.0744 	EXP 	Recogn_hint: autoDraw = True
+153.6449 	EXP 	New trial (rep=0, index=11): {'stimuluswords': 'уровень', 'lvl': 'semant', 'corrAns': 'j'}
+153.6593 	DATA 	Keypress: f
+153.6739 	EXP 	Recogn_word: autoDraw = False
+153.6739 	EXP 	Recogn_hint: autoDraw = False
+153.6739 	EXP 	Recogn_word: text = 'уровень'
+153.6739 	EXP 	Recogn_word: autoDraw = True
+153.6739 	EXP 	Recogn_hint: autoDraw = True
+154.5273 	EXP 	New trial (rep=0, index=12): {'stimuluswords': 'момент', 'lvl': 'sens', 'corrAns': 'j'}
+154.5369 	DATA 	Keypress: j
+154.5556 	EXP 	Recogn_word: autoDraw = False
+154.5556 	EXP 	Recogn_hint: autoDraw = False
+154.5556 	EXP 	Recogn_word: text = 'момент'
+154.5556 	EXP 	Recogn_word: autoDraw = True
+154.5556 	EXP 	Recogn_hint: autoDraw = True
+156.2293 	DATA 	Keypress: j
+158.0452 	EXP 	New trial (rep=0, index=13): {'stimuluswords': 'контакт', 'lvl': 'filler', 'corrAns': 'f'}
+158.0574 	DATA 	Keypress: j
+158.0730 	EXP 	Recogn_word: autoDraw = False
+158.0730 	EXP 	Recogn_hint: autoDraw = False
+158.0730 	EXP 	Recogn_word: text = 'контакт'
+158.0730 	EXP 	Recogn_word: autoDraw = True
+158.0730 	EXP 	Recogn_hint: autoDraw = True
+160.3115 	EXP 	New trial (rep=0, index=14): {'stimuluswords': 'кольцо', 'lvl': 'filler', 'corrAns': 'f'}
+160.3242 	DATA 	Keypress: f
+160.3392 	EXP 	Recogn_word: autoDraw = False
+160.3392 	EXP 	Recogn_hint: autoDraw = False
+160.3392 	EXP 	Recogn_word: text = 'кольцо'
+160.3392 	EXP 	Recogn_word: autoDraw = True
+160.3392 	EXP 	Recogn_hint: autoDraw = True
+162.6663 	DATA 	Keypress: f
+162.6778 	EXP 	New trial (rep=0, index=15): {'stimuluswords': 'печать', 'lvl': 'semant', 'corrAns': 'j'}
+162.7055 	EXP 	Recogn_word: autoDraw = False
+162.7055 	EXP 	Recogn_hint: autoDraw = False
+162.7055 	EXP 	Recogn_word: text = 'печать'
+162.7055 	EXP 	Recogn_word: autoDraw = True
+162.7055 	EXP 	Recogn_hint: autoDraw = True
+163.5257 	EXP 	New trial (rep=0, index=16): {'stimuluswords': 'язык', 'lvl': 'sens', 'corrAns': 'j'}
+163.5397 	DATA 	Keypress: j
+163.5545 	EXP 	Recogn_word: autoDraw = False
+163.5545 	EXP 	Recogn_hint: autoDraw = False
+163.5545 	EXP 	Recogn_word: text = 'язык'
+163.5545 	EXP 	Recogn_word: autoDraw = True
+163.5545 	EXP 	Recogn_hint: autoDraw = True
+164.4266 	EXP 	New trial (rep=0, index=17): {'stimuluswords': 'действие', 'lvl': 'filler', 'corrAns': 'f'}
+164.4413 	DATA 	Keypress: j
+164.4542 	EXP 	Recogn_word: autoDraw = False
+164.4542 	EXP 	Recogn_hint: autoDraw = False
+164.4542 	EXP 	Recogn_word: text = 'действие'
+164.4542 	EXP 	Recogn_word: autoDraw = True
+164.4542 	EXP 	Recogn_hint: autoDraw = True
+165.2474 	DATA 	Keypress: f
+165.2587 	EXP 	New trial (rep=0, index=18): {'stimuluswords': 'голова', 'lvl': 'filler', 'corrAns': 'f'}
+165.2874 	EXP 	Recogn_word: autoDraw = False
+165.2874 	EXP 	Recogn_hint: autoDraw = False
+165.2874 	EXP 	Recogn_word: text = 'голова'
+165.2874 	EXP 	Recogn_word: autoDraw = True
+165.2874 	EXP 	Recogn_hint: autoDraw = True
+170.9921 	EXP 	New trial (rep=0, index=19): {'stimuluswords': 'порядок', 'lvl': 'sens', 'corrAns': 'j'}
+171.0015 	DATA 	Keypress: j
+171.0201 	EXP 	Recogn_word: autoDraw = False
+171.0201 	EXP 	Recogn_hint: autoDraw = False
+171.0201 	EXP 	Recogn_word: text = 'порядок'
+171.0201 	EXP 	Recogn_word: autoDraw = True
+171.0201 	EXP 	Recogn_hint: autoDraw = True
+174.5090 	EXP 	New trial (rep=0, index=20): {'stimuluswords': 'песня', 'lvl': 'semant', 'corrAns': 'j'}
+174.5218 	DATA 	Keypress: f
+174.5374 	EXP 	Recogn_word: autoDraw = False
+174.5374 	EXP 	Recogn_hint: autoDraw = False
+174.5374 	EXP 	Recogn_word: text = 'песня'
+174.5374 	EXP 	Recogn_word: autoDraw = True
+174.5374 	EXP 	Recogn_hint: autoDraw = True
+175.9481 	DATA 	Keypress: j
+175.9587 	EXP 	New trial (rep=0, index=21): {'stimuluswords': 'дочка', 'lvl': 'filler', 'corrAns': 'f'}
+175.9861 	EXP 	Recogn_word: autoDraw = False
+175.9861 	EXP 	Recogn_hint: autoDraw = False
+175.9861 	EXP 	Recogn_word: text = 'дочка'
+175.9861 	EXP 	Recogn_word: autoDraw = True
+175.9861 	EXP 	Recogn_hint: autoDraw = True
+176.9917 	EXP 	New trial (rep=0, index=22): {'stimuluswords': 'море', 'lvl': 'semant', 'corrAns': 'j'}
+177.0038 	DATA 	Keypress: j
+177.0192 	EXP 	Recogn_word: autoDraw = False
+177.0192 	EXP 	Recogn_hint: autoDraw = False
+177.0192 	EXP 	Recogn_word: text = 'море'
+177.0192 	EXP 	Recogn_word: autoDraw = True
+177.0192 	EXP 	Recogn_hint: autoDraw = True
+177.7605 	DATA 	Keypress: j
+177.7750 	EXP 	New trial (rep=0, index=23): {'stimuluswords': 'мама', 'lvl': 'filler', 'corrAns': 'f'}
+177.8034 	EXP 	Recogn_word: autoDraw = False
+177.8034 	EXP 	Recogn_hint: autoDraw = False
+177.8034 	EXP 	Recogn_word: text = 'мама'
+177.8034 	EXP 	Recogn_word: autoDraw = True
+177.8034 	EXP 	Recogn_hint: autoDraw = True
+178.5597 	DATA 	Keypress: j
+178.5749 	EXP 	New trial (rep=0, index=24): {'stimuluswords': 'прокурор', 'lvl': 'filler', 'corrAns': 'f'}
+178.5890 	EXP 	Recogn_word: autoDraw = False
+178.5890 	EXP 	Recogn_hint: autoDraw = False
+178.5890 	EXP 	Recogn_word: text = 'прокурор'
+178.5890 	EXP 	Recogn_word: autoDraw = True
+178.5890 	EXP 	Recogn_hint: autoDraw = True
+179.6077 	EXP 	New trial (rep=0, index=25): {'stimuluswords': 'масштаб', 'lvl': 'sens', 'corrAns': 'j'}
+179.6199 	DATA 	Keypress: f
+179.6365 	EXP 	Recogn_word: autoDraw = False
+179.6365 	EXP 	Recogn_hint: autoDraw = False
+179.6365 	EXP 	Recogn_word: text = 'масштаб'
+179.6365 	EXP 	Recogn_word: autoDraw = True
+179.6365 	EXP 	Recogn_hint: autoDraw = True
+180.8799 	DATA 	Keypress: f
+180.8903 	EXP 	New trial (rep=0, index=26): {'stimuluswords': 'форма', 'lvl': 'filler', 'corrAns': 'f'}
+180.9185 	EXP 	Recogn_word: autoDraw = False
+180.9185 	EXP 	Recogn_hint: autoDraw = False
+180.9185 	EXP 	Recogn_word: text = 'форма'
+180.9185 	EXP 	Recogn_word: autoDraw = True
+180.9185 	EXP 	Recogn_hint: autoDraw = True
+181.6460 	DATA 	Keypress: f
+181.6565 	EXP 	New trial (rep=0, index=27): {'stimuluswords': 'дача', 'lvl': 'filler', 'corrAns': 'f'}
+181.6853 	EXP 	Recogn_word: autoDraw = False
+181.6853 	EXP 	Recogn_hint: autoDraw = False
+181.6853 	EXP 	Recogn_word: text = 'дача'
+181.6853 	EXP 	Recogn_word: autoDraw = True
+181.6853 	EXP 	Recogn_hint: autoDraw = True
+182.3127 	EXP 	New trial (rep=0, index=28): {'stimuluswords': 'металл', 'lvl': 'sens', 'corrAns': 'j'}
+182.3275 	DATA 	Keypress: f
+182.3361 	EXP 	Recogn_word: autoDraw = False
+182.3361 	EXP 	Recogn_hint: autoDraw = False
+182.3361 	EXP 	Recogn_word: text = 'металл'
+182.3361 	EXP 	Recogn_word: autoDraw = True
+182.3361 	EXP 	Recogn_hint: autoDraw = True
+183.0942 	DATA 	Keypress: j
+183.1073 	EXP 	New trial (rep=0, index=29): {'stimuluswords': 'столик', 'lvl': 'filler', 'corrAns': 'f'}
+183.1364 	EXP 	Recogn_word: autoDraw = False
+183.1364 	EXP 	Recogn_hint: autoDraw = False
+183.1364 	EXP 	Recogn_word: text = 'столик'
+183.1364 	EXP 	Recogn_word: autoDraw = True
+183.1364 	EXP 	Recogn_hint: autoDraw = True
+184.3072 	EXP 	New trial (rep=0, index=30): {'stimuluswords': 'сюжет', 'lvl': 'filler', 'corrAns': 'f'}
+184.3203 	DATA 	Keypress: f
+184.3361 	EXP 	Recogn_word: autoDraw = False
+184.3361 	EXP 	Recogn_hint: autoDraw = False
+184.3361 	EXP 	Recogn_word: text = 'сюжет'
+184.3361 	EXP 	Recogn_word: autoDraw = True
+184.3361 	EXP 	Recogn_hint: autoDraw = True
+186.1440 	DATA 	Keypress: j
+186.1563 	EXP 	New trial (rep=0, index=31): {'stimuluswords': 'транспорт', 'lvl': 'semant', 'corrAns': 'j'}
+186.1848 	EXP 	Recogn_word: autoDraw = False
+186.1848 	EXP 	Recogn_hint: autoDraw = False
+186.1848 	EXP 	Recogn_word: text = 'транспорт'
+186.1848 	EXP 	Recogn_word: autoDraw = True
+186.1848 	EXP 	Recogn_hint: autoDraw = True
+187.6956 	DATA 	Keypress: j
+187.7085 	EXP 	New trial (rep=0, index=32): {'stimuluswords': 'образ', 'lvl': 'semant', 'corrAns': 'j'}
+187.7354 	EXP 	Recogn_word: autoDraw = False
+187.7354 	EXP 	Recogn_hint: autoDraw = False
+187.7354 	EXP 	Recogn_word: text = 'образ'
+187.7354 	EXP 	Recogn_word: autoDraw = True
+187.7354 	EXP 	Recogn_hint: autoDraw = True
+188.9600 	DATA 	Keypress: f
+188.9734 	EXP 	New trial (rep=0, index=33): {'stimuluswords': 'закон', 'lvl': 'filler', 'corrAns': 'f'}
+189.0020 	EXP 	Recogn_word: autoDraw = False
+189.0020 	EXP 	Recogn_hint: autoDraw = False
+189.0020 	EXP 	Recogn_word: text = 'закон'
+189.0020 	EXP 	Recogn_word: autoDraw = True
+189.0020 	EXP 	Recogn_hint: autoDraw = True
+192.0223 	EXP 	New trial (rep=0, index=34): {'stimuluswords': 'нога', 'lvl': 'filler', 'corrAns': 'f'}
+192.0341 	DATA 	Keypress: f
+192.0504 	EXP 	Recogn_word: autoDraw = False
+192.0504 	EXP 	Recogn_hint: autoDraw = False
+192.0504 	EXP 	Recogn_word: text = 'нога'
+192.0504 	EXP 	Recogn_word: autoDraw = True
+192.0504 	EXP 	Recogn_hint: autoDraw = True
+192.8547 	EXP 	New trial (rep=0, index=35): {'stimuluswords': 'секунда', 'lvl': 'filler', 'corrAns': 'f'}
+192.8637 	DATA 	Keypress: f
+192.8702 	EXP 	Recogn_word: autoDraw = False
+192.8702 	EXP 	Recogn_hint: autoDraw = False
+192.8702 	EXP 	Recogn_word: text = 'секунда'
+192.8702 	EXP 	Recogn_word: autoDraw = True
+192.8702 	EXP 	Recogn_hint: autoDraw = True
+194.1551 	EXP 	New trial (rep=0, index=36): {'stimuluswords': 'рынок', 'lvl': 'filler', 'corrAns': 'f'}
+194.1646 	DATA 	Keypress: f
+194.1836 	EXP 	Recogn_word: autoDraw = False
+194.1836 	EXP 	Recogn_hint: autoDraw = False
+194.1836 	EXP 	Recogn_word: text = 'рынок'
+194.1836 	EXP 	Recogn_word: autoDraw = True
+194.1836 	EXP 	Recogn_hint: autoDraw = True
+195.4552 	EXP 	New trial (rep=0, index=37): {'stimuluswords': 'краска', 'lvl': 'semant', 'corrAns': 'j'}
+195.4642 	DATA 	Keypress: f
+195.4706 	EXP 	Recogn_word: autoDraw = False
+195.4706 	EXP 	Recogn_hint: autoDraw = False
+195.4706 	EXP 	Recogn_word: text = 'краска'
+195.4706 	EXP 	Recogn_word: autoDraw = True
+195.4706 	EXP 	Recogn_hint: autoDraw = True
+196.0137 	DATA 	Keypress: j
+196.0260 	EXP 	New trial (rep=0, index=38): {'stimuluswords': 'лошадь', 'lvl': 'sens', 'corrAns': 'j'}
+196.0499 	EXP 	Recogn_word: autoDraw = False
+196.0499 	EXP 	Recogn_hint: autoDraw = False
+196.0499 	EXP 	Recogn_word: text = 'лошадь'
+196.0499 	EXP 	Recogn_word: autoDraw = True
+196.0499 	EXP 	Recogn_hint: autoDraw = True
+197.5394 	EXP 	New trial (rep=0, index=39): {'stimuluswords': 'начало', 'lvl': 'filler', 'corrAns': 'f'}
+197.5534 	DATA 	Keypress: f
+197.5674 	EXP 	Recogn_word: autoDraw = False
+197.5674 	EXP 	Recogn_hint: autoDraw = False
+197.5674 	EXP 	Recogn_word: text = 'начало'
+197.5674 	EXP 	Recogn_word: autoDraw = True
+197.5674 	EXP 	Recogn_hint: autoDraw = True
+199.6054 	EXP 	New trial (rep=0, index=40): {'stimuluswords': 'вечер', 'lvl': 'sens', 'corrAns': 'j'}
+199.6172 	DATA 	Keypress: j
+199.6341 	EXP 	Recogn_word: autoDraw = False
+199.6341 	EXP 	Recogn_hint: autoDraw = False
+199.6341 	EXP 	Recogn_word: text = 'вечер'
+199.6341 	EXP 	Recogn_word: autoDraw = True
+199.6341 	EXP 	Recogn_hint: autoDraw = True
+201.7872 	EXP 	New trial (rep=0, index=41): {'stimuluswords': 'вода', 'lvl': 'sens', 'corrAns': 'j'}
+201.7977 	DATA 	Keypress: f
+201.8159 	EXP 	Recogn_word: autoDraw = False
+201.8159 	EXP 	Recogn_hint: autoDraw = False
+201.8159 	EXP 	Recogn_word: text = 'вода'
+201.8159 	EXP 	Recogn_word: autoDraw = True
+201.8159 	EXP 	Recogn_hint: autoDraw = True
+202.5545 	EXP 	New trial (rep=0, index=42): {'stimuluswords': 'отец', 'lvl': 'sens', 'corrAns': 'j'}
+202.5675 	DATA 	Keypress: j
+202.5823 	EXP 	Recogn_word: autoDraw = False
+202.5823 	EXP 	Recogn_hint: autoDraw = False
+202.5823 	EXP 	Recogn_word: text = 'отец'
+202.5823 	EXP 	Recogn_word: autoDraw = True
+202.5823 	EXP 	Recogn_hint: autoDraw = True
+203.8738 	DATA 	Keypress: f
+203.8872 	EXP 	New trial (rep=0, index=43): {'stimuluswords': 'танец', 'lvl': 'filler', 'corrAns': 'f'}
+203.9156 	EXP 	Recogn_word: autoDraw = False
+203.9156 	EXP 	Recogn_hint: autoDraw = False
+203.9156 	EXP 	Recogn_word: text = 'танец'
+203.9156 	EXP 	Recogn_word: autoDraw = True
+203.9156 	EXP 	Recogn_hint: autoDraw = True
+205.0045 	EXP 	New trial (rep=0, index=44): {'stimuluswords': 'качество', 'lvl': 'sens', 'corrAns': 'j'}
+205.0172 	DATA 	Keypress: f
+205.0332 	EXP 	Recogn_word: autoDraw = False
+205.0332 	EXP 	Recogn_hint: autoDraw = False
+205.0332 	EXP 	Recogn_word: text = 'качество'
+205.0332 	EXP 	Recogn_word: autoDraw = True
+205.0332 	EXP 	Recogn_hint: autoDraw = True
+206.1718 	EXP 	New trial (rep=0, index=45): {'stimuluswords': 'версия', 'lvl': 'sens', 'corrAns': 'j'}
+206.1814 	DATA 	Keypress: f
+206.1995 	EXP 	Recogn_word: autoDraw = False
+206.1995 	EXP 	Recogn_hint: autoDraw = False
+206.1995 	EXP 	Recogn_word: text = 'версия'
+206.1995 	EXP 	Recogn_word: autoDraw = True
+206.1995 	EXP 	Recogn_hint: autoDraw = True
+207.4044 	EXP 	New trial (rep=0, index=46): {'stimuluswords': 'молоко', 'lvl': 'sens', 'corrAns': 'j'}
+207.4156 	DATA 	Keypress: f
+207.4327 	EXP 	Recogn_word: autoDraw = False
+207.4327 	EXP 	Recogn_hint: autoDraw = False
+207.4327 	EXP 	Recogn_word: text = 'молоко'
+207.4327 	EXP 	Recogn_word: autoDraw = True
+207.4327 	EXP 	Recogn_hint: autoDraw = True
+207.9866 	EXP 	New trial (rep=0, index=47): {'stimuluswords': 'машина', 'lvl': 'semant', 'corrAns': 'j'}
+207.9979 	DATA 	Keypress: j
+208.0149 	EXP 	Recogn_word: autoDraw = False
+208.0149 	EXP 	Recogn_hint: autoDraw = False
+208.0149 	EXP 	Recogn_word: text = 'машина'
+208.0149 	EXP 	Recogn_word: autoDraw = True
+208.0149 	EXP 	Recogn_hint: autoDraw = True
+208.8042 	EXP 	New trial (rep=0, index=48): {'stimuluswords': 'число', 'lvl': 'filler', 'corrAns': 'f'}
+208.8175 	DATA 	Keypress: j
+208.8325 	EXP 	Recogn_word: autoDraw = False
+208.8325 	EXP 	Recogn_hint: autoDraw = False
+208.8325 	EXP 	Recogn_word: text = 'число'
+208.8325 	EXP 	Recogn_word: autoDraw = True
+208.8325 	EXP 	Recogn_hint: autoDraw = True
+209.4748 	DATA 	Keypress: j
+209.4866 	EXP 	New trial (rep=0, index=49): {'stimuluswords': 'народ', 'lvl': 'filler', 'corrAns': 'f'}
+209.5148 	EXP 	Recogn_word: autoDraw = False
+209.5148 	EXP 	Recogn_hint: autoDraw = False
+209.5148 	EXP 	Recogn_word: text = 'народ'
+209.5148 	EXP 	Recogn_word: autoDraw = True
+209.5148 	EXP 	Recogn_hint: autoDraw = True
+210.7903 	DATA 	Keypress: f
+210.8042 	EXP 	New trial (rep=0, index=50): {'stimuluswords': 'поиск', 'lvl': 'filler', 'corrAns': 'f'}
+210.8324 	EXP 	Recogn_word: autoDraw = False
+210.8324 	EXP 	Recogn_hint: autoDraw = False
+210.8324 	EXP 	Recogn_word: text = 'поиск'
+210.8324 	EXP 	Recogn_word: autoDraw = True
+210.8324 	EXP 	Recogn_hint: autoDraw = True
+211.5064 	DATA 	Keypress: f
+211.5189 	EXP 	New trial (rep=0, index=51): {'stimuluswords': 'месяц', 'lvl': 'sens', 'corrAns': 'j'}
+211.5347 	EXP 	Recogn_word: autoDraw = False
+211.5347 	EXP 	Recogn_hint: autoDraw = False
+211.5347 	EXP 	Recogn_word: text = 'месяц'
+211.5347 	EXP 	Recogn_word: autoDraw = True
+211.5347 	EXP 	Recogn_hint: autoDraw = True
+212.2699 	EXP 	New trial (rep=0, index=52): {'stimuluswords': 'село', 'lvl': 'filler', 'corrAns': 'f'}
+212.2813 	DATA 	Keypress: j
+212.2988 	EXP 	Recogn_word: autoDraw = False
+212.2988 	EXP 	Recogn_hint: autoDraw = False
+212.2988 	EXP 	Recogn_word: text = 'село'
+212.2988 	EXP 	Recogn_word: autoDraw = True
+212.2988 	EXP 	Recogn_hint: autoDraw = True
+213.1185 	EXP 	New trial (rep=0, index=53): {'stimuluswords': 'зима', 'lvl': 'semant', 'corrAns': 'j'}
+213.1280 	DATA 	Keypress: f
+213.1346 	EXP 	Recogn_word: autoDraw = False
+213.1346 	EXP 	Recogn_hint: autoDraw = False
+213.1346 	EXP 	Recogn_word: text = 'зима'
+213.1346 	EXP 	Recogn_word: autoDraw = True
+213.1346 	EXP 	Recogn_hint: autoDraw = True
+214.0040 	EXP 	New trial (rep=0, index=54): {'stimuluswords': 'группа', 'lvl': 'filler', 'corrAns': 'f'}
+214.0173 	DATA 	Keypress: j
+214.0320 	EXP 	Recogn_word: autoDraw = False
+214.0320 	EXP 	Recogn_hint: autoDraw = False
+214.0320 	EXP 	Recogn_word: text = 'группа'
+214.0320 	EXP 	Recogn_word: autoDraw = True
+214.0320 	EXP 	Recogn_hint: autoDraw = True
+214.9189 	EXP 	New trial (rep=0, index=55): {'stimuluswords': 'масса', 'lvl': 'filler', 'corrAns': 'f'}
+214.9284 	DATA 	Keypress: f
+214.9473 	EXP 	Recogn_word: autoDraw = False
+214.9473 	EXP 	Recogn_hint: autoDraw = False
+214.9473 	EXP 	Recogn_word: text = 'масса'
+214.9473 	EXP 	Recogn_word: autoDraw = True
+214.9473 	EXP 	Recogn_hint: autoDraw = True
+216.0883 	DATA 	Keypress: f
+216.1030 	EXP 	New trial (rep=0, index=56): {'stimuluswords': 'десяток', 'lvl': 'filler', 'corrAns': 'f'}
+216.1318 	EXP 	Recogn_word: autoDraw = False
+216.1318 	EXP 	Recogn_hint: autoDraw = False
+216.1318 	EXP 	Recogn_word: text = 'десяток'
+216.1318 	EXP 	Recogn_word: autoDraw = True
+216.1318 	EXP 	Recogn_hint: autoDraw = True
+217.0024 	EXP 	New trial (rep=0, index=57): {'stimuluswords': 'процент', 'lvl': 'filler', 'corrAns': 'f'}
+217.0102 	DATA 	Keypress: f
+217.0158 	EXP 	Recogn_word: autoDraw = False
+217.0158 	EXP 	Recogn_hint: autoDraw = False
+217.0158 	EXP 	Recogn_word: text = 'процент'
+217.0158 	EXP 	Recogn_word: autoDraw = True
+217.0158 	EXP 	Recogn_hint: autoDraw = True
+217.7361 	EXP 	New trial (rep=0, index=58): {'stimuluswords': 'книга', 'lvl': 'filler', 'corrAns': 'f'}
+217.7450 	DATA 	Keypress: f
+217.7645 	EXP 	Recogn_word: autoDraw = False
+217.7645 	EXP 	Recogn_hint: autoDraw = False
+217.7645 	EXP 	Recogn_word: text = 'книга'
+217.7645 	EXP 	Recogn_word: autoDraw = True
+217.7645 	EXP 	Recogn_hint: autoDraw = True
+218.5687 	EXP 	New trial (rep=0, index=59): {'stimuluswords': 'режим', 'lvl': 'semant', 'corrAns': 'j'}
+218.5771 	DATA 	Keypress: f
+218.5826 	EXP 	Recogn_word: autoDraw = False
+218.5826 	EXP 	Recogn_hint: autoDraw = False
+218.5826 	EXP 	Recogn_word: text = 'режим'
+218.5826 	EXP 	Recogn_word: autoDraw = True
+218.5826 	EXP 	Recogn_hint: autoDraw = True
+219.3368 	EXP 	New trial (rep=0, index=60): {'stimuluswords': 'улица', 'lvl': 'filler', 'corrAns': 'f'}
+219.3492 	DATA 	Keypress: f
+219.3647 	EXP 	Recogn_word: autoDraw = False
+219.3647 	EXP 	Recogn_hint: autoDraw = False
+219.3647 	EXP 	Recogn_word: text = 'улица'
+219.3647 	EXP 	Recogn_word: autoDraw = True
+219.3647 	EXP 	Recogn_hint: autoDraw = True
+220.2361 	EXP 	New trial (rep=0, index=61): {'stimuluswords': 'статья', 'lvl': 'sens', 'corrAns': 'j'}
+220.2479 	DATA 	Keypress: f
+220.2644 	EXP 	Recogn_word: autoDraw = False
+220.2644 	EXP 	Recogn_hint: autoDraw = False
+220.2644 	EXP 	Recogn_word: text = 'статья'
+220.2644 	EXP 	Recogn_word: autoDraw = True
+220.2644 	EXP 	Recogn_hint: autoDraw = True
+221.4031 	EXP 	New trial (rep=0, index=62): {'stimuluswords': 'случай', 'lvl': 'semant', 'corrAns': 'j'}
+221.4167 	DATA 	Keypress: f
+221.4308 	EXP 	Recogn_word: autoDraw = False
+221.4308 	EXP 	Recogn_hint: autoDraw = False
+221.4308 	EXP 	Recogn_word: text = 'случай'
+221.4308 	EXP 	Recogn_word: autoDraw = True
+221.4308 	EXP 	Recogn_hint: autoDraw = True
+222.0553 	EXP 	New trial (rep=0, index=63): {'stimuluswords': 'комната', 'lvl': 'filler', 'corrAns': 'f'}
+222.0686 	DATA 	Keypress: j
+222.0799 	EXP 	Recogn_word: autoDraw = False
+222.0799 	EXP 	Recogn_hint: autoDraw = False
+222.0799 	EXP 	Recogn_word: text = 'комната'
+222.0799 	EXP 	Recogn_word: autoDraw = True
+222.0799 	EXP 	Recogn_hint: autoDraw = True
+223.8171 	EXP 	New trial (rep=0, index=64): {'stimuluswords': 'вино', 'lvl': 'filler', 'corrAns': 'f'}
+223.8275 	DATA 	Keypress: f
+223.8461 	EXP 	Recogn_word: autoDraw = False
+223.8461 	EXP 	Recogn_hint: autoDraw = False
+223.8461 	EXP 	Recogn_word: text = 'вино'
+223.8461 	EXP 	Recogn_word: autoDraw = True
+223.8461 	EXP 	Recogn_hint: autoDraw = True
+224.6893 	DATA 	Keypress: f
+224.7020 	EXP 	New trial (rep=0, index=65): {'stimuluswords': 'диван', 'lvl': 'semant', 'corrAns': 'j'}
+224.7306 	EXP 	Recogn_word: autoDraw = False
+224.7306 	EXP 	Recogn_hint: autoDraw = False
+224.7306 	EXP 	Recogn_word: text = 'диван'
+224.7306 	EXP 	Recogn_word: autoDraw = True
+224.7306 	EXP 	Recogn_hint: autoDraw = True
+225.3023 	EXP 	New trial (rep=0, index=66): {'stimuluswords': 'учет', 'lvl': 'filler', 'corrAns': 'f'}
+225.3158 	DATA 	Keypress: j
+225.3305 	EXP 	Recogn_word: autoDraw = False
+225.3305 	EXP 	Recogn_hint: autoDraw = False
+225.3305 	EXP 	Recogn_word: text = 'учет'
+225.3305 	EXP 	Recogn_word: autoDraw = True
+225.3305 	EXP 	Recogn_hint: autoDraw = True
+226.0573 	DATA 	Keypress: f
+226.0720 	EXP 	New trial (rep=0, index=67): {'stimuluswords': 'сделка', 'lvl': 'filler', 'corrAns': 'f'}
+226.0969 	EXP 	Recogn_word: autoDraw = False
+226.0969 	EXP 	Recogn_hint: autoDraw = False
+226.0969 	EXP 	Recogn_word: text = 'сделка'
+226.0969 	EXP 	Recogn_word: autoDraw = True
+226.0969 	EXP 	Recogn_hint: autoDraw = True
+227.2347 	EXP 	New trial (rep=0, index=68): {'stimuluswords': 'имя', 'lvl': 'sens', 'corrAns': 'j'}
+227.2450 	DATA 	Keypress: f
+227.2637 	EXP 	Recogn_word: autoDraw = False
+227.2637 	EXP 	Recogn_hint: autoDraw = False
+227.2637 	EXP 	Recogn_word: text = 'имя'
+227.2637 	EXP 	Recogn_word: autoDraw = True
+227.2637 	EXP 	Recogn_hint: autoDraw = True
+228.0016 	EXP 	New trial (rep=0, index=69): {'stimuluswords': 'ребенок', 'lvl': 'filler', 'corrAns': 'f'}
+228.0139 	DATA 	Keypress: j
+228.0301 	EXP 	Recogn_word: autoDraw = False
+228.0301 	EXP 	Recogn_hint: autoDraw = False
+228.0301 	EXP 	Recogn_word: text = 'ребенок'
+228.0301 	EXP 	Recogn_word: autoDraw = True
+228.0301 	EXP 	Recogn_hint: autoDraw = True
+228.7392 	DATA 	Keypress: f
+228.7508 	EXP 	New trial (rep=0, index=70): {'stimuluswords': 'дядя', 'lvl': 'sens', 'corrAns': 'j'}
+228.7787 	EXP 	Recogn_word: autoDraw = False
+228.7787 	EXP 	Recogn_hint: autoDraw = False
+228.7787 	EXP 	Recogn_word: text = 'дядя'
+228.7787 	EXP 	Recogn_word: autoDraw = True
+228.7787 	EXP 	Recogn_hint: autoDraw = True
+229.8671 	EXP 	New trial (rep=0, index=71): {'stimuluswords': 'голос', 'lvl': 'filler', 'corrAns': 'f'}
+229.8761 	DATA 	Keypress: f
+229.8818 	EXP 	Recogn_word: autoDraw = False
+229.8818 	EXP 	Recogn_hint: autoDraw = False
+229.8818 	EXP 	Recogn_word: text = 'голос'
+229.8818 	EXP 	Recogn_word: autoDraw = True
+229.8818 	EXP 	Recogn_hint: autoDraw = True
+230.5837 	EXP 	New trial (rep=0, index=72): {'stimuluswords': 'право', 'lvl': 'semant', 'corrAns': 'j'}
+230.5978 	DATA 	Keypress: j
+230.6118 	EXP 	Recogn_word: autoDraw = False
+230.6118 	EXP 	Recogn_hint: autoDraw = False
+230.6118 	EXP 	Recogn_word: text = 'право'
+230.6118 	EXP 	Recogn_word: autoDraw = True
+230.6118 	EXP 	Recogn_hint: autoDraw = True
+231.2340 	EXP 	New trial (rep=0, index=73): {'stimuluswords': 'тысяча', 'lvl': 'sens', 'corrAns': 'j'}
+231.2466 	DATA 	Keypress: j
+231.2627 	EXP 	Recogn_word: autoDraw = False
+231.2627 	EXP 	Recogn_hint: autoDraw = False
+231.2627 	EXP 	Recogn_word: text = 'тысяча'
+231.2627 	EXP 	Recogn_word: autoDraw = True
+231.2627 	EXP 	Recogn_hint: autoDraw = True
+231.9014 	EXP 	New trial (rep=0, index=74): {'stimuluswords': 'минута', 'lvl': 'semant', 'corrAns': 'j'}
+231.9142 	DATA 	Keypress: j
+231.9295 	EXP 	Recogn_word: autoDraw = False
+231.9295 	EXP 	Recogn_hint: autoDraw = False
+231.9295 	EXP 	Recogn_word: text = 'минута'
+231.9295 	EXP 	Recogn_word: autoDraw = True
+231.9295 	EXP 	Recogn_hint: autoDraw = True
+232.6673 	EXP 	New trial (rep=0, index=75): {'stimuluswords': 'объект', 'lvl': 'filler', 'corrAns': 'f'}
+232.6824 	DATA 	Keypress: j
+232.6961 	EXP 	Recogn_word: autoDraw = False
+232.6961 	EXP 	Recogn_hint: autoDraw = False
+232.6961 	EXP 	Recogn_word: text = 'объект'
+232.6961 	EXP 	Recogn_word: autoDraw = True
+232.6961 	EXP 	Recogn_hint: autoDraw = True
+234.9161 	EXP 	New trial (rep=0, index=76): {'stimuluswords': 'страна', 'lvl': 'semant', 'corrAns': 'j'}
+234.9264 	DATA 	Keypress: j
+234.9444 	EXP 	Recogn_word: autoDraw = False
+234.9444 	EXP 	Recogn_hint: autoDraw = False
+234.9444 	EXP 	Recogn_word: text = 'страна'
+234.9444 	EXP 	Recogn_word: autoDraw = True
+234.9444 	EXP 	Recogn_hint: autoDraw = True
+237.0824 	EXP 	New trial (rep=0, index=77): {'stimuluswords': 'студент', 'lvl': 'sens', 'corrAns': 'j'}
+237.0958 	DATA 	Keypress: j
+237.1108 	EXP 	Recogn_word: autoDraw = False
+237.1108 	EXP 	Recogn_hint: autoDraw = False
+237.1108 	EXP 	Recogn_word: text = 'студент'
+237.1108 	EXP 	Recogn_word: autoDraw = True
+237.1108 	EXP 	Recogn_hint: autoDraw = True
+237.7005 	EXP 	New trial (rep=0, index=78): {'stimuluswords': 'область', 'lvl': 'sens', 'corrAns': 'j'}
+237.7146 	DATA 	Keypress: f
+237.7286 	EXP 	Recogn_word: autoDraw = False
+237.7286 	EXP 	Recogn_hint: autoDraw = False
+237.7286 	EXP 	Recogn_word: text = 'область'
+237.7286 	EXP 	Recogn_word: autoDraw = True
+237.7286 	EXP 	Recogn_hint: autoDraw = True
+239.0483 	EXP 	New trial (rep=0, index=79): {'stimuluswords': 'сестра', 'lvl': 'semant', 'corrAns': 'j'}
+239.0606 	DATA 	Keypress: j
+239.0773 	EXP 	Recogn_word: autoDraw = False
+239.0773 	EXP 	Recogn_hint: autoDraw = False
+239.0773 	EXP 	Recogn_word: text = 'сестра'
+239.0773 	EXP 	Recogn_word: autoDraw = True
+239.0773 	EXP 	Recogn_hint: autoDraw = True
+240.2385 	DATA 	Keypress: j
+240.2441 	EXP 	Recogn_word: autoDraw = False
+240.2441 	EXP 	Recogn_hint: autoDraw = False
+240.2441 	EXP 	Goodbye_text: autoDraw = True
+245.2430 	EXP 	Goodbye_text: autoDraw = False
+245.2430 	EXP 	Goodbye_text: autoDraw = False
+245.4037 	EXP 	window1: mouseVisible = True

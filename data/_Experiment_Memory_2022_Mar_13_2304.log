@@ -1,0 +1,162 @@
+2.6107 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+7.4357 	WARNING 	User requested fullscreen with size [1536  864], but screen is actually [1920, 1080]. Using actual size
+10.0462 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+10.0473 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000017D53BD5CF8>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000017D53B00400>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.0482 	EXP 	window1: mouseVisible = True
+10.0483 	EXP 	window1: recordFrameIntervals = False
+10.2128 	EXP 	window1: recordFrameIntervals = True
+11.8795 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+12.7412 	EXP 	Created Instr1_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='Instr1_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.7709 	EXP 	Created Instr2_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Instr2_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.8112 	EXP 	Created ExQuestion = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='ExQuestion', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Что рифмуется со словом "молодец"?', units='height', win=Window(...), wrapWidth=1)
+12.8218 	EXP 	Created ExWordL = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='ExWordL', opacity=1, ori=0.0, pos=array([-0.4,  0. ]), rgb=UNKNOWN, text='конец', units='height', win=Window(...), wrapWidth=1)
+12.8291 	EXP 	Created ExWordR = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='ExWordR', opacity=1, ori=0.0, pos=array([0.4, 0. ]), rgb=UNKNOWN, text='голова', units='height', win=Window(...), wrapWidth=1)
+12.8471 	EXP 	Created ExHint = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='ExHint', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.8730 	EXP 	Created Instr3_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Instr3_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.8744 	EXP 	Created TestQuestion = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='TestQuestion', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+12.8757 	EXP 	Created TestWordL = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='TestWordL', opacity=1, ori=0.0, pos=array([-0.4,  0. ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+12.8769 	EXP 	Created TestWordR = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='TestWordR', opacity=1, ori=0.0, pos=array([0.4, 0. ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+12.8827 	EXP 	Created TestHint = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='TestHint', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.9119 	EXP 	Created Instr4_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Instr4_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.9140 	EXP 	Created Recogn_word = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='Recogn_word', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+12.9218 	EXP 	Created Recogn_hint = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Recogn_hint', opacity=1, ori=0.0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.9290 	EXP 	Created Goodbye_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Goodbye_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.9648 	WARNING 	t of last frame was 1085.75ms (=1/0)
+12.9648 	EXP 	Instr1_text: autoDraw = True
+14.2445 	DATA 	Keypress: space
+14.2633 	WARNING 	t of last frame was 28.67ms (=1/34)
+14.2633 	EXP 	Instr1_text: autoDraw = False
+14.2633 	EXP 	Instr2_text: autoDraw = True
+14.6226 	DATA 	Keypress: space
+14.6298 	EXP 	Instr2_text: autoDraw = False
+14.6298 	EXP 	ExQuestion: autoDraw = True
+14.9690 	DATA 	Keypress: space
+18.2319 	WARNING 	t of last frame was 20.41ms (=1/48)
+19.6111 	EXP 	ExWordL: autoDraw = True
+19.6111 	EXP 	ExWordR: autoDraw = True
+19.6446 	EXP 	ExQuestion: autoDraw = False
+21.6109 	EXP 	ExWordL: autoDraw = False
+21.6109 	EXP 	ExWordR: autoDraw = False
+21.6109 	EXP 	ExHint: autoDraw = True
+22.2884 	DATA 	Keypress: f
+22.2958 	EXP 	ExQuestion: autoDraw = False
+22.2958 	EXP 	ExWordL: autoDraw = False
+22.2958 	EXP 	ExWordR: autoDraw = False
+22.2958 	EXP 	ExHint: autoDraw = False
+22.2958 	EXP 	Instr3_text: autoDraw = True
+23.6519 	DATA 	Keypress: space
+23.7352 	EXP 	Imported conditions_memory_loop.xlsx as conditions, 19 conditions, 5 params
+23.7364 	EXP 	Created sequence: random, trialTypes=19, nReps=1, seed=None
+23.7373 	EXP 	New trial (rep=0, index=0): {'question': 'В каком слове 3 буквы “О”?', 'wordL': 'молоко', 'wordR': 'металл', 'wordcolorL': 'white', 'wordcolorR': 'white'}
+23.8107 	WARNING 	t of last frame was 148.89ms (=1/6)
+23.8107 	EXP 	Instr3_text: autoDraw = False
+23.8107 	EXP 	TestQuestion: text = 'В каком слове 3 буквы “О”?'
+23.8107 	EXP 	TestWordL: text = 'молоко'
+23.8107 	EXP 	TestWordR: text = 'металл'
+23.8107 	EXP 	TestQuestion: autoDraw = True
+28.7945 	EXP 	TestWordL: autoDraw = True
+28.7945 	EXP 	TestWordR: autoDraw = True
+28.8101 	EXP 	TestQuestion: autoDraw = False
+29.7000 	DATA 	Keypress: f
+30.7943 	EXP 	TestHint: autoDraw = True
+30.8098 	EXP 	TestWordL: autoDraw = False
+30.8098 	EXP 	TestWordR: autoDraw = False
+31.6326 	EXP 	New trial (rep=0, index=1): {'question': 'Какое слово относится к категории члены семьи?', 'wordL': 'звезда', 'wordR': 'сестра', 'wordcolorL': 'white', 'wordcolorR': 'white'}
+31.6908 	DATA 	Keypress: f
+31.7095 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+31.7095 	EXP 	TestQuestion: autoDraw = False
+31.7095 	EXP 	TestWordL: autoDraw = False
+31.7095 	EXP 	TestWordR: autoDraw = False
+31.7095 	EXP 	TestHint: autoDraw = False
+31.7095 	EXP 	TestQuestion: text = 'Какое слово относится к категории члены семьи?'
+31.7095 	EXP 	TestWordL: text = 'звезда'
+31.7095 	EXP 	TestWordR: text = 'сестра'
+31.7095 	EXP 	TestQuestion: autoDraw = True
+36.6766 	EXP 	TestWordL: autoDraw = True
+36.6766 	EXP 	TestWordR: autoDraw = True
+36.7088 	EXP 	TestQuestion: autoDraw = False
+38.6751 	EXP 	TestWordL: autoDraw = False
+38.6751 	EXP 	TestWordR: autoDraw = False
+38.6751 	EXP 	TestHint: autoDraw = True
+39.1649 	EXP 	New trial (rep=0, index=2): {'question': 'Какое слово написано с заглавной буквы?', 'wordL': 'Студент', 'wordR': 'дядя', 'wordcolorL': 'white', 'wordcolorR': 'white'}
+39.2087 	DATA 	Keypress: j
+39.2259 	EXP 	TestQuestion: autoDraw = False
+39.2259 	EXP 	TestWordL: autoDraw = False
+39.2259 	EXP 	TestWordR: autoDraw = False
+39.2259 	EXP 	TestHint: autoDraw = False
+39.2259 	EXP 	TestQuestion: text = 'Какое слово написано с заглавной буквы?'
+39.2259 	EXP 	TestWordL: text = 'Студент'
+39.2259 	EXP 	TestWordR: text = 'дядя'
+39.2259 	EXP 	TestQuestion: autoDraw = True
+44.2077 	EXP 	TestWordL: autoDraw = True
+44.2077 	EXP 	TestWordR: autoDraw = True
+44.2412 	EXP 	TestQuestion: autoDraw = False
+46.2076 	EXP 	TestWordL: autoDraw = False
+46.2076 	EXP 	TestWordR: autoDraw = False
+46.2076 	EXP 	TestHint: autoDraw = True
+46.7640 	EXP 	New trial (rep=0, index=3): {'question': 'Какое слово синего цвета?', 'wordL': 'порядок', 'wordR': 'момент', 'wordcolorL': 'white', 'wordcolorR': 'blue'}
+46.7999 	DATA 	Keypress: f
+46.8074 	EXP 	TestQuestion: autoDraw = False
+46.8074 	EXP 	TestWordL: autoDraw = False
+46.8074 	EXP 	TestWordR: autoDraw = False
+46.8074 	EXP 	TestHint: autoDraw = False
+46.8074 	EXP 	TestQuestion: text = 'Какое слово синего цвета?'
+46.8074 	EXP 	TestWordL: text = 'порядок'
+46.8074 	EXP 	TestWordR: text = 'момент'
+46.8074 	EXP 	TestQuestion: autoDraw = True
+51.7774 	EXP 	TestWordL: autoDraw = True
+51.7774 	EXP 	TestWordR: autoDraw = True
+51.8106 	EXP 	TestQuestion: autoDraw = False
+53.7770 	EXP 	TestWordL: autoDraw = False
+53.7770 	EXP 	TestWordR: autoDraw = False
+53.7770 	EXP 	TestHint: autoDraw = True
+54.5816 	EXP 	New trial (rep=0, index=4): {'question': 'Какое слово относится к категории предметы мебели?', 'wordL': 'диван', 'wordR': 'печать', 'wordcolorL': 'white', 'wordcolorR': 'white'}
+54.6198 	DATA 	Keypress: j
+54.6268 	EXP 	TestQuestion: autoDraw = False
+54.6268 	EXP 	TestWordL: autoDraw = False
+54.6268 	EXP 	TestWordR: autoDraw = False
+54.6268 	EXP 	TestHint: autoDraw = False
+54.6268 	EXP 	TestQuestion: text = 'Какое слово относится к категории предметы мебели?'
+54.6268 	EXP 	TestWordL: text = 'диван'
+54.6268 	EXP 	TestWordR: text = 'печать'
+54.6268 	EXP 	TestQuestion: autoDraw = True
+59.6235 	EXP 	TestWordL: autoDraw = True
+59.6235 	EXP 	TestWordR: autoDraw = True
+59.6389 	EXP 	TestQuestion: autoDraw = False
+61.6052 	EXP 	TestHint: autoDraw = True
+61.6388 	EXP 	TestWordL: autoDraw = False
+61.6388 	EXP 	TestWordR: autoDraw = False
+62.2288 	DATA 	Keypress: f
+62.2437 	EXP 	New trial (rep=0, index=5): {'question': 'Какое из слов написано большими буквами?', 'wordL': 'ВОДА', 'wordR': 'отец', 'wordcolorL': 'white', 'wordcolorR': 'white'}
+62.3053 	EXP 	TestQuestion: autoDraw = False
+62.3053 	EXP 	TestWordL: autoDraw = False
+62.3053 	EXP 	TestWordR: autoDraw = False
+62.3053 	EXP 	TestHint: autoDraw = False
+62.3053 	EXP 	TestQuestion: text = 'Какое из слов написано большими буквами?'
+62.3053 	EXP 	TestWordL: text = 'ВОДА'
+62.3053 	EXP 	TestWordR: text = 'отец'
+62.3053 	EXP 	TestQuestion: autoDraw = True
+67.2889 	EXP 	TestWordL: autoDraw = True
+67.2889 	EXP 	TestWordR: autoDraw = True
+67.3045 	EXP 	TestQuestion: autoDraw = False
+69.2927 	EXP 	TestWordL: autoDraw = False
+69.2927 	EXP 	TestWordR: autoDraw = False
+69.2927 	EXP 	TestHint: autoDraw = True
+71.3794 	EXP 	New trial (rep=0, index=6): {'question': 'Какое слово относится к категории учебные предметы в школе?', 'wordL': 'право', 'wordR': 'образ', 'wordcolorL': 'white', 'wordcolorR': 'white'}
+71.4129 	DATA 	Keypress: f
+71.4213 	EXP 	TestQuestion: autoDraw = False
+71.4213 	EXP 	TestWordL: autoDraw = False
+71.4213 	EXP 	TestWordR: autoDraw = False
+71.4213 	EXP 	TestHint: autoDraw = False
+71.4213 	EXP 	TestQuestion: text = 'Какое слово относится к категории учебные предметы в школе?'
+71.4213 	EXP 	TestWordL: text = 'право'
+71.4213 	EXP 	TestWordR: text = 'образ'
+71.4213 	EXP 	TestQuestion: autoDraw = True
+73.4765 	DATA 	Keypress: escape
+73.7071 	EXP 	window1: mouseVisible = True

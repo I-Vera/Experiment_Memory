@@ -1,0 +1,6 @@
+﻿question,wordL,wordR,wordcolorL,wordcolorR,testing_trials.thisRepN,testing_trials.thisTrialN,testing_trials.thisN,testing_trials.thisIndex,ExHint.started,ExHint.stopped,Instr3_text.started,Instr3_text.stopped,TestHint.started,TestHint.stopped,TestKeyresp.keys,TestKeyresp.rt,participant,session,date,expName,psychopyVersion,frameRate,
+None,None,None,None,None,0,0,0,31,20.7252976000309,None,22.221153100021183,None,30.619939199998043,None,f,6.198009499930777,,001,2022_Mar_13_2300,Experiment_Memory,2021.2.3,None,
+Какое из слов относится к географии?,страна,случай,white,white,0,1,1,5,,,,,43.86891179997474,None,f,1.0459680000785738,,001,2022_Mar_13_2300,Experiment_Memory,2021.2.3,None,
+None,None,None,None,None,0,2,2,33,,,,,51.95018699998036,None,f,2.6936200000345707,,001,2022_Mar_13_2300,Experiment_Memory,2021.2.3,None,
+None,None,None,None,None,0,3,3,39,,,,,61.68221140000969,None,f,0.8150279999244958,,001,2022_Mar_13_2300,Experiment_Memory,2021.2.3,None,
+None,None,None,None,None,0,4,4,69,,,,,69.53220759995747,None,f,0.4053989000385627,,001,2022_Mar_13_2300,Experiment_Memory,2021.2.3,None,
